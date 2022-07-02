@@ -57,6 +57,7 @@ h1 {
     text-align: center;
     color: rgb(44, 100, 255);
     align-self: center;
+    font-size: 60px;
 }
 .h1_span {
     color: yellow;
@@ -81,12 +82,12 @@ article {
     width: 75%;
 }
 h2 {
-    font-size: larger;
+    font-size: 40px;
     font-weight: 300;
     font-family: 'Kelly Slab';
 }
 .ap {
-    font-size: medium;
+    font-size: 25px;
     font-weight: 500;
     font-family: 'Kelly Slab';
 }
