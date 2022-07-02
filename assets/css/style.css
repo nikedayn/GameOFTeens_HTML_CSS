@@ -1,0 +1,105 @@
+/* kelly-slab-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/kelly-slab-v15-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/kelly-slab-v15-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+} 
+.logo {
+    margin: 0;
+    text-transform: uppercase;
+    color: yellow;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 100, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu-list {
+    display: flex;
+    list-style-type:none;
+    gap: 30px;
+    padding: 0;
+    transition: all 3s;
+}
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 17px;
+    color: yellow;
+}
+.menu-link:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); 
+}
+.first-section {
+    display: flex;
+    align-items: stretch;
+    background-image: url(/assets/img/hand.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 1000px;
+}
+h1 {
+    z-index: 2;
+    text-align: center;
+    color: rgb(44, 100, 255);
+    align-self: center;
+}
+.h1_span {
+    color: yellow;
+}
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left:15px;
+}
+.third-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction:column;
+    margin-left:15px;
+}
+article {
+    width: 100%;
+}
+.ai {
+    width: 75%;
+}
+h2 {
+    font-size: larger;
+    font-weight: 300;
+    font-family: 'Kelly Slab';
+}
+.ap {
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Kelly Slab';
+}
+.requesites {
+    word-spacing: 9999999px;
+}  
+.fa {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+}
+footer {
+    background-color: rgb(44, 100, 255);
+    padding: 10px auto;
+}
